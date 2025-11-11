@@ -1,0 +1,66 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+.envrc
+secrets.*
+config.ini
+credentials.json
+**/credentials/
+**/secrets/
+*.pem
+*.key
+*.crt
+*.p12
+
+# API Keys
+*api_key*
+*apikey*
+*secret*
+
+# AWS
+.aws/
+aws_credentials
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+node_modules/
+.npm/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+*.csv
+*.tsv
+*.xlsx
+*.pbix
+*.zip
+*.tar.gz
+.venv/
+data/
+*.mkv
+*.mkv
+all_embeddings.json
+test.py
+.env
